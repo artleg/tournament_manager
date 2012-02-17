@@ -28,7 +28,7 @@ while i<len(Name):
 #print(Name) 
 #print(Rate)
 tableResalt.append("</tbody></table>")
-f=open('../sunday_league/Table_Resalt', 'w')
+f=open('/home/artleg/Dropbox/backup/table_tennis/sunday_league/Table_Resalt', 'w')
 i=0
 while i<len(tableResalt):
 	f.write(tableResalt[i])
